@@ -15,7 +15,9 @@
   "main": "./index.js",
   "keywords": [
     "optimize",
-    "optimized"
+    "optimized",
+    "apply",
+    "toarray"
   ],
   "dependencies": {},
   "devDependencies": {}

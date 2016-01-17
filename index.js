@@ -42,7 +42,7 @@ function toArray(target, left, right) {
       len -= right;
       break;
   }
-  var res = new Array(len - left);
+  var res = new Array(left > len ? 0 : len - left);
   for (; left < len; left++) { // ++left
     res[left] = target[left];
   }
