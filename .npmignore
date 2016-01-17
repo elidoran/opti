@@ -1,0 +1,10 @@
+*.log
+*.pid
+*.git
+*.project
+.project
+.DS_Store
+node_modules
+test
+temp
+tmp

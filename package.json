@@ -1,0 +1,22 @@
+{
+  "name": "opti",
+  "version": "0.1.0",
+  "description": "Optimized methods for speeding and (avoiding) memory leaks",
+  "license": "MIT",
+  "author": {
+    "name": "Gabriele Di Stefano",
+    "email": "gabrieleds+node@gmail.com"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrieleds/opti.git"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "optimize",
+    "optimized"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
