@@ -1,6 +1,6 @@
 {
   "name": "opti",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Optimized methods for speeding and (avoiding) memory leaks",
   "license": "MIT",
   "author": {
