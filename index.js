@@ -37,14 +37,15 @@ function toArray(target, left, right) {
   switch (arguments.length) {
     case 1:
       left = 0;
-      break;
-    case 3:
-      len -= right;
+    case 2:
+      right = 0;
       break;
   }
-  var res = new Array(left > len ? 0 : len - left);
-  for (; left < len; left++) { // ++left
-    res[left] = target[left];
+  len = len - left - right;
+  if (len <= 0) return new Array();
+  var res = new Array(len);
+  for (var i = 0; i < len; i++) { // ++i
+    res[i] = target[i + left];
   }
   return res;
 }
